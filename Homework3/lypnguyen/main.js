@@ -227,7 +227,7 @@ d3.csv("pokemon_alopez247.csv").then(rawData =>{
     // unhighlight on leave
     const unhighlight = function(d) {
         d3.selectAll(".line")
-            .transition().duration(100).delay(250)
+            .transition().duration(200).delay(300)
             .style("stroke", d => d.HighestStat_Color)
             .style("stroke-width", 1)
             .style("opacity", 0.5)
